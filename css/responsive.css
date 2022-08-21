@@ -1,0 +1,309 @@
+/***** medium Layout *****/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .wel-come h4 {
+        font-size: 40px;
+    }
+
+    .menu-part ul li a,
+    .service-right {
+        font-size: 12px;
+    }
+
+    .support-box ul li {
+        width: 24.2%;
+    }
+
+    .tab-part-area label {
+        padding: 10px 20px;
+    }
+}
+
+/***** Tablet Layout *****/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: 12px;
+    }
+
+    .wel-come h4 {
+        font-size: 32px;
+    }
+
+    .product-dec {
+        margin-top: 50px;
+    }
+
+    #navbar ul li a {
+        font-size: 13px;
+        margin: 0 10px;
+    }
+
+    .support-box ul li {
+        width: 48.6%;
+        margin-bottom: 10px;
+    }
+
+    .gallery-content {
+        text-align: center;
+    }
+
+    .product-dec h3 {
+        font-size: 20px;
+    }
+
+    .sidebar-box {
+        width: 70%;
+        margin: 30px auto 0;
+    }
+
+    .product-dec p,
+    .tab-section p {
+        font-size: 13px;
+    }
+
+    .tab-part-area label {
+        display: block;
+    }
+
+    .single-care h3 {
+        font-size: 17px;
+    }
+
+    .warpper,
+    .tab {
+        display: block;
+    }
+}
+
+/***** Mobile Layout *****/
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 12px;
+    }
+
+    .wel-come h4 {
+        font-size: 14px;
+    }
+
+    .header-top {
+        padding: 20px 0;
+    }
+
+    .menu-area {
+        padding: 0;
+    }
+
+    .support {
+        text-align: center !important;
+    }
+
+    .aspect-name {
+        font-size: 13px;
+    }
+
+    .support-box ul li {
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .footer-widget.footer-img {
+        margin: 0 0 50px !important;
+    }
+
+    .footer-img img {
+        width: 200px;
+    }
+
+    .support h2 {
+        font-size: 18px;
+    }
+
+    .wel-come,
+    .menu-top {
+        padding: 0;
+        text-align: center;
+    }
+
+    .logo {
+        padding: 0;
+    }
+
+    /* menu start */
+    .navbar-header > label,
+    .switch,
+    .menu-container label {
+        display: block;
+        top: -4px;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #menu-switcher:checked + #navbar {
+        display: block;
+        padding-bottom: 15px;
+    }
+
+    .menu-container {
+        padding: 26px 0;
+    }
+
+    #navbar ul {
+        width: 100% !important;
+        margin: 0;
+    }
+
+    #navbar ul li {
+        width: 100%;
+        float: left;
+        margin: 0 !important;
+        text-align: left;
+    }
+
+    #navbar ul li a {
+        color: #fff !important;
+        display: block;
+    }
+
+    #navbar {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: absolute;
+        top: 70px;
+        z-index: 999;
+        left: 0;
+        background-color: rgba(0, 0, 0, .9);
+    }
+
+    /* menu end */
+
+    .pro-title {
+        padding: 15px 10px;
+        text-align: center;
+    }
+
+    .product-dec p,
+    .tab-section p,
+    .copy-right p,
+    .footer-widget p {
+        font-size: 13px !important;
+    }
+
+    .pro-title a,
+    .pro-title .separate {
+        display: none;
+    }
+
+    .csslider ul li img {
+        width: 100%;
+        height: auto;
+    }
+
+    .csslider > .navigation {
+        display: none;
+    }
+
+    .csslider.infinity > input:first-of-type:checked ~ .arrows label.goto-last,
+    .csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(0),
+    .csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(1),
+    .csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(2),
+    .csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(3),
+    .csslider > input:nth-of-type(5):checked ~ .arrows > label:nth-of-type(4),
+    .csslider > input:nth-of-type(6):checked ~ .arrows > label:nth-of-type(5),
+    .csslider > input:nth-of-type(7):checked ~ .arrows > label:nth-of-type(6),
+    .csslider > input:nth-of-type(8):checked ~ .arrows > label:nth-of-type(7),
+    .csslider > input:nth-of-type(9):checked ~ .arrows > label:nth-of-type(8),
+    .csslider > input:nth-of-type(10):checked ~ .arrows > label:nth-of-type(9),
+    .csslider > input:nth-of-type(11):checked ~ .arrows > label:nth-of-type(10) {
+        left: -14px;
+    }
+
+    .csslider.infinity > input:last-of-type:checked ~ .arrows label.goto-first,
+    .csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(2),
+    .csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(3),
+    .csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(4),
+    .csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(5),
+    .csslider > input:nth-of-type(5):checked ~ .arrows > label:nth-of-type(6),
+    .csslider > input:nth-of-type(6):checked ~ .arrows > label:nth-of-type(7),
+    .csslider > input:nth-of-type(7):checked ~ .arrows > label:nth-of-type(8),
+    .csslider > input:nth-of-type(8):checked ~ .arrows > label:nth-of-type(9),
+    .csslider > input:nth-of-type(9):checked ~ .arrows > label:nth-of-type(10),
+    .csslider > input:nth-of-type(10):checked ~ .arrows > label:nth-of-type(11),
+    .csslider > input:nth-of-type(11):checked ~ .arrows > label:nth-of-type(12) {
+        right: -14px;
+    }
+
+    .product-dec h2,
+    .pro-title h3,
+    .product-dec h3,
+    .product-dec h4,
+    .single-care h3 {
+        font-size: 16px;
+    }
+
+    .tab-area label {
+        width: 100%;
+    }
+
+    section.tab-section,
+    .panels {
+        padding: 30px 10px;
+    }
+
+    .product-dec {
+        margin-top: 30px;
+    }
+
+    .tab-part-area label {
+        display: block;
+    }
+
+
+    .warpper,
+    .tab {
+        display: block;
+    }
+
+    .ex {
+        padding: 0;
+    }
+
+    .sidebar-box {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .footer-img {
+        padding: 0;
+    }
+
+    .footer-menu {
+        display: none;
+    }
+
+    .footer-left {
+        margin: 20px 0;
+    }
+
+    .footer-widget {
+        margin-bottom: 40px;
+    }
+
+    .footer-widget h2 {
+        margin: 0 0 20px;
+    }
+
+    .single-care,
+    .footer-widget {
+        margin-bottom: 30px !important;
+    }
+}
+
+/***** Wide Mobile Layout *****/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
